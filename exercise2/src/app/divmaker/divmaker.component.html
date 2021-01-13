@@ -1,0 +1,12 @@
+
+<div class="top-element">
+    <input type="text" placeholder="diameter" [(ngModel)]="shape">Diameter
+    <input type="checkbox" name="" id="" (click)="isCircle()">
+    <label for="top-circle">Is Circle?</label>
+
+<div [ngStyle]="{'height' : getSize(), 'width' : getSize(), 'background-color' : 'purple' }" [ngClass]="{'circle' : circle }"></div>
+</div>
+
+<div class="bottom-element">
+
+</div>
